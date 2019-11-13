@@ -9,6 +9,10 @@ app.post("/",(req,res)=>{
     console.log("POST req added");
 });
 
+app.put("/",(req,res)=>{
+    console.log("PUT req added");
+});
+
 app.listen(4000,()=>{
     console.log("Started server...");
 });
