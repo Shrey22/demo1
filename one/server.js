@@ -13,6 +13,10 @@ app.put("/",(req,res)=>{
     console.log("PUT req added");
 });
 
+app.delete("/",(req,res)=>{
+    console.log("Delete req added");
+});
+
 app.listen(4000,()=>{
     console.log("Started server...");
 });
